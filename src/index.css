@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 body{
-  background-color: #000300;
-  
+  background-color: #000300; 
+}
+
+*{
+  transition: all linear .3s;
 }

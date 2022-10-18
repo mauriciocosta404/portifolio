@@ -2,7 +2,7 @@ import Laptop from '../assets/js.jpg';
 
 const Analytics=()=>{
  return(
-        <div className="w-full bg-white py-16 px-4">
+        <div id='about' className=" w-full bg-white py-16 px-4">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
                 <img src={Laptop} alt="laptop" className='w-[500px] mx-auto my-4'/>
                 <div className='flex flex-col justify-center '>
