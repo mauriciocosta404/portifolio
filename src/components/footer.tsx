@@ -20,9 +20,36 @@ const Footer = () => {
                     <FaDribbbleSquare size={30}/>
                 </div>
             </div>
-            <div className='lg:col-span-3 flex justify-between '>
+            <div className='lg:col-span-2 flex justify-between mt-6'>
                 <div>
                     <h6 className='font-medium text-gray-400'>Qualities</h6>
+                    <ul>
+                        <li className='py-2 text-sm '>Pontual</li>
+                        <li className='py-2 text-sm '>Esforçado</li>
+                        <li className='py-2 text-sm '>Comunicativo</li>
+                        <li className='py-2 text-sm '>Flexible</li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 className='font-medium text-gray-400'>Perfil</h6>
+                    <ul>
+                        <li className='py-2 text-sm '>Pontual</li>
+                        <li className='py-2 text-sm '>Esforçado</li>
+                        <li className='py-2 text-sm '>Comunicativo</li>
+                        <li className='py-2 text-sm '>Flexible</li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 className='font-medium text-gray-400'>Likes</h6>
+                    <ul>
+                        <li className='py-2 text-sm '>Pontual</li>
+                        <li className='py-2 text-sm '>Esforçado</li>
+                        <li className='py-2 text-sm '>Comunicativo</li>
+                        <li className='py-2 text-sm '>Flexible</li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 className='font-medium text-gray-400'>Likes</h6>
                     <ul>
                         <li className='py-2 text-sm '>Pontual</li>
                         <li className='py-2 text-sm '>Esforçado</li>
