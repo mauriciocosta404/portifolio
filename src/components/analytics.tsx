@@ -1,4 +1,4 @@
-import Laptop from '../assets/laptop.jpg';
+import Laptop from '../assets/js.jpg';
 
 const Analytics=()=>{
  return(
