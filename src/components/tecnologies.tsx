@@ -7,9 +7,14 @@ import node from '../assets/skills/nodejs.png';
 import git from '../assets/skills/git.png';
 import figma from '../assets/skills/figma.png';
 
-const Tecnologies = () => {
+interface NavProps {
+    nav: boolean;
+    setNav(nav: boolean): void;
+}
+
+const Tecnologies = ({ nav, setNav }: NavProps) => {
     return (
-        <div id='tecnologies' className=' w-full  bg-white'>
+        <div onClick={() => { setNav(false) }} id='tecnologies' className=' w-full  bg-white'>
             <div className="max-w-[1240px] mx-auto grid grid-cols-8 py-16 px-4">
                 <img src={html} alt="" />
                 <img src={css} alt="" />

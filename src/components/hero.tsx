@@ -1,8 +1,13 @@
 import Typed from 'react-typed';
 
-const Hero=()=>{
+interface NavProps {
+    nav: boolean;
+    setNav(nav: boolean): void;
+}
+
+const Hero = ({ nav, setNav }: NavProps)=>{
     return(
-        <div className="text-white">
+        <div className="text-white" onClick={() => { setNav(false) }}>
             <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
                 <p className="text-[#00df9a] font-bold p-2 uppercase">front-end developer react.js</p>
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">Front End Developer</h1>

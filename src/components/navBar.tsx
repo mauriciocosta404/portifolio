@@ -1,13 +1,17 @@
 import { AiOutlineClose,AiOutlineMenu } from "react-icons/ai";
-import { useState } from "react";
 
-const NavBar=()=>{
-    const [nav,setNav]=useState(false);
+interface NavProps{
+    nav:boolean;
+    setNav(nav:boolean):void;
+}
+
+const NavBar=({nav,setNav}:NavProps)=>{
+    
     return(
         <div id="home" className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
             <h1 className="w-full text-3xl font-bold text-[#00df9a]">Maurício</h1>
-            <ul className="hidden md:flex">
-                <li className="p-4">
+            <ul className="hidden md:flex" onClick={()=>{setNav(false)}}>
+                <li className="p-4" >
                     <a href="#home">
                         Home
                     </a>   
