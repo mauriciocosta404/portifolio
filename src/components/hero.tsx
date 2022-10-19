@@ -16,7 +16,7 @@ const Hero = ({ nav, setNav }: NavProps)=>{
                     <Typed className="md:text-3xl sm:text-1xl text-xl font-bold" strings={['Mauricio Front-End 😎']} typeSpeed={120} backSpeed={140} loop/>
                 </div>
                 <p className='md:text-1xl font-bold-300 text-gray-600'>Hello! i am Maurício Costa, i am developer web currentilly more focussed in front-end development 😎😎</p>
-                <button className='bg-[#00df9a] w-[200px] rounded-md mx-auto font-medium my-6 p-2 text-black'>Get Started</button>
+                <button className='bg-[#00df9a] w-[200px] rounded-md mx-auto font-medium my-6 p-2 text-black'><a href="https://github.com/menezescosta">Gethub</a></button>
             </div>
         </div>
     )
