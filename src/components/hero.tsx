@@ -12,7 +12,7 @@ const Hero = ({ nav, setNav }: NavProps)=>{
                 <p className="text-[#00df9a] font-bold p-2 uppercase">front-end developer react.js</p>
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">Front End Developer</h1>
                 <div>
-                    <p className="md:text-5xl sm:text-4xl text-xl py-3 font-bold">Fast, flexible, powerfull</p>
+                    <p className="md:text-5xl sm:text-4xl text-xl py-3 font-bold">React.js ,React-native , Typescript</p>
                     <Typed className="md:text-3xl sm:text-1xl text-xl font-bold" strings={['Mauricio Front-End 😎']} typeSpeed={120} backSpeed={140} loop/>
                 </div>
                 <p className='md:text-1xl font-bold-300 text-gray-600'>Hello! i am Maurício Costa, i am developer web currentilly more focussed in front-end development 😎😎</p>
