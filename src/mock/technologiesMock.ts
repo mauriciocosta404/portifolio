@@ -7,4 +7,31 @@ import node from '../assets/skills/nodejs.png';
 import git from '../assets/skills/git.png';
 import figma from '../assets/skills/figma.png';
 
-const images=[{src:react},{src:html},{src:css},{src:js},{src:next},{src:node},{src:git},{src:figma}];
+const tecnologiesImage=[
+    {
+        src:react,
+        alt:'React',
+    },{
+        src:html,
+        alt:'html',
+    },{
+        src:css,
+        alt:'css',
+   },{
+        src:js,
+        alt:'js',
+    },{
+        src:next,
+        alt:'Next'    
+    },{
+        src:node,
+        alt: 'Node'
+    },{
+        src:git,
+        alt: 'Git'
+    },{
+        src:figma,
+        alt: 'Figma'
+}];
+
+export default tecnologiesImage;
