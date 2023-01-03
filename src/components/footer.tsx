@@ -1,3 +1,4 @@
+import avatar from '../assets/avatar.png';
 import {
     FaDribbbleSquare,
     FaFacebookSquare,
@@ -13,9 +14,9 @@ interface NavProps {
 
 const Footer = ({ nav, setNav }: NavProps) => {
     return (
-        <div onClick={() => { setNav(false) }} id='details' className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
+        <div onClick={() => { setNav(false) }} id='details' className="max-w-[1240px] mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
             <div>
-                <h1 className="w-full text-3xl font-bold text-[#00df9a]">Maurício</h1>
+            <h1 className="flex w-full text-3xl font-bold text-[#00df9a]">Maurício <img src={avatar} className="w-[40px] ml-2 h-[40px] rounded-full" alt="" /></h1>
                 <p className='py-4 '>I'm currently studying Frontend development and some other technologies that complement this process, such as HTML, CSS, JS, TS, React, Next, Node, Git and GitHub, some CSS Frameworks like Tailwind, scss . My goal is to become a competent, relevant professional in the technology area.</p>
                 <div className='flex md:w-[75%] my-6 justify-between'>
                     <FaFacebookSquare size={30}/>

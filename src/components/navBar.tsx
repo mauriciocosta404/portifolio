@@ -1,4 +1,5 @@
 import { AiOutlineClose,AiOutlineMenu } from "react-icons/ai";
+import avatar from '../assets/avatar.png';
 
 interface NavProps{
     nav:boolean;
@@ -9,7 +10,7 @@ const NavBar=({nav,setNav}:NavProps)=>{
     
     return(
         <div id="home" className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
-            <h1 className="w-full text-3xl font-bold text-[#00df9a]">Maurício</h1>
+            <h1 className="flex w-full text-3xl font-bold text-[#00df9a]">Maurício <img src={avatar} className="w-[40px] ml-2 h-[40px] rounded-full" alt="" /></h1>
             <ul className="hidden md:flex" onClick={()=>{setNav(false)}}>
                 <li className="p-4" >
                     <a href="#home">

@@ -6,6 +6,7 @@ import Newsletter from './components/newsletter';
 import Tecnologies from './components/tecnologies';
 import Footer from './components/footer';
 import Contact from './components/contact';
+import Projects from './components/projects';
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -17,6 +18,7 @@ function App() {
       <Newsletter nav={nav} setNav={setNav} />
       <Tecnologies nav={nav} setNav={setNav} />
       <Contact nav={nav} setNav={setNav} />
+      <Projects nav={nav} setNav={setNav}/>
       <Footer nav={nav} setNav={setNav} />
     </div>
   );
