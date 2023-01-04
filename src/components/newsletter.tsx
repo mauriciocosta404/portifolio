@@ -16,7 +16,7 @@ const Newsletter = ({ nav, setNav }: NavProps)=>{
                         <input className="p-3 flex w-full rounded-md text-black" type="email" name="" id="" placeholder="Enter your email"/>
                         <button className='bg-[#00df9a] text-black w-[200px] rounded-md ml-4 font-medium my-6 px-6 py-3'>Notice me</button>
                     </div>
-                    <p>I care about about clean code, Read my <span className="text-[#00df9a]">privacy policy.</span></p>
+                    <p>I care about about clean you, Read my <span className="text-[#00df9a]">privacy policy.</span></p>
                 </div>
             </div>
          </div>
