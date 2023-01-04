@@ -32,7 +32,7 @@ const Footer = ({ nav, setNav }: NavProps) => {
             </div>
             <div className='lg:col-span-2 flex justify-between mt-6'>
                 <div className='lg:ml-8'>
-                    <h6 className=' font-medium text-gray-400'>Perfil</h6>
+                    <h6 className='my-5 font-bold text-gray-400'>Perfil</h6>
                     <ul>
                         <li className='py-2 text-sm '>email:mc611641@gmail.com</li>
                         <li className='py-2 text-sm '>whatsapp:941692901</li>
@@ -41,7 +41,7 @@ const Footer = ({ nav, setNav }: NavProps) => {
                     </ul>
                 </div>
                 <div>
-                    <h6 className='font-medium text-gray-400'>Qualities</h6>
+                    <h6 className='my-5 font-bold text-gray-400'>Qualities</h6>
                     <ul>
                         <li className='py-2 text-sm '>one-off</li>
                         <li className='py-2 text-sm '>hardworking</li>
@@ -50,7 +50,7 @@ const Footer = ({ nav, setNav }: NavProps) => {
                     </ul>
                 </div>
                 <div>
-                    <h6 className='font-medium text-gray-400'>Likes</h6>
+                    <h6 className='my-5 font-bold text-gray-400'>Likes</h6>
                     <ul>
                         <li className='py-2 text-sm '>one-off</li>
                         <li className='py-2 text-sm '>hardworking</li>
