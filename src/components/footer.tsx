@@ -30,7 +30,7 @@ const Footer = ({ nav, setNav }: NavProps) => {
                     <FaDribbbleSquare size={30}/>
                 </div>
             </div>
-            <div className='lg:col-span-2 flex justify-between mt-6'>
+            <div className='lg:col-span-2 lg:flex justify-between mt-6'>
                 <div className='lg:ml-8'>
                     <h6 className='my-5 font-bold text-gray-400'>Perfil</h6>
                     <ul>
