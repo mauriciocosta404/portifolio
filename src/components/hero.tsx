@@ -1,5 +1,5 @@
 import Typed from 'react-typed';
-
+import avatar from '../assets/avatar.png';
 interface NavProps {
     nav: boolean;
     setNav(nav: boolean): void;
@@ -9,6 +9,7 @@ const Hero = ({ nav, setNav }: NavProps)=>{
     return(
         <div className="text-white" onClick={() => { setNav(false) }}>
             <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+                <img src={avatar} className="md:w-[100px] md:h-[100px] w-[70px] h-[70px] mx-auto rounded-full" alt="" />
                 <p className="text-[#00df9a] font-bold p-2 uppercase">front-end developer react.js</p>
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">Front End Developer</h1>
                 <div>
