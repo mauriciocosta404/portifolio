@@ -24,7 +24,7 @@ const Footer = ({ nav, setNav }: NavProps) => {
                         <FaLinkedin size={30}/>
                     </a>
                     <FaTwitterSquare size={30}/>
-                    <a href="https://github.com/menezescosta">
+                    <a href="https://github.com/mauriciocosta404/Calculadora-js.git">
                         <FaGithubSquare size={30}/>
                     </a>
                     <FaDribbbleSquare size={30}/>
