@@ -1,3 +1,4 @@
+
 import { FaGithub } from 'react-icons/fa';
 import project1 from '../assets/projects/taskManager.jpg'; 
 import project2 from '../assets/projects/restaurante.png';
@@ -7,9 +8,6 @@ import project5 from '../assets/projects/clima.png';
 import project6 from '../assets/projects/calculadora.png';
 import project7 from '../assets/projects/iAmHere.png';
 import project8 from '../assets/projects/financa.png';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-
 
 interface NavProps {
     nav: boolean;
@@ -17,6 +15,7 @@ interface NavProps {
 }
 
 const Projects=({nav,setNav}:NavProps)=>{
+
     return(
         <div id='projects' className="w-full  bg-white p-6">
             <h1 className="w-full text-3xl font-bold text-center text-[#00df9a]">Projects</h1>
