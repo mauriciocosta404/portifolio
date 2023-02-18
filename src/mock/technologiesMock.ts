@@ -32,6 +32,7 @@ const tecnologiesImage=[
     },{
         src:figma,
         alt: 'Figma'
-}];
+    }
+];
 
 export default tecnologiesImage;

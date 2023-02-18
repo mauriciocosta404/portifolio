@@ -35,8 +35,8 @@ const Footer = ({ nav, setNav }: NavProps) => {
                     <h6 className='my-5 font-bold text-gray-400'>Perfil</h6>
                     <ul>
                         <li className='py-2 text-sm '>email:mc611641@gmail.com</li>
-                        <li className='py-2 text-sm '>whatsapp:941692901</li>
-                        <li className='py-2 text-sm '>telefone:943377863</li>
+                        <li className='py-2 text-sm '>whatsapp:921129586</li>
+                        <li className='py-2 text-sm '>telefone:921129586</li>
                         <li className='py-2 text-sm '></li>
                     </ul>
                 </div>
