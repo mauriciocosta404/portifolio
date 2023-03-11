@@ -1,9 +1,6 @@
 import Typed from 'react-typed';
 import avatar from '../assets/avatar.png';
-interface NavProps {
-    nav: boolean;
-    setNav(nav: boolean): void;
-}
+import { NavProps } from './type';
 
 const Hero = ({ nav, setNav }: NavProps)=>{
     return(

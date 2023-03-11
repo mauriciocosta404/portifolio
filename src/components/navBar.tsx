@@ -1,9 +1,5 @@
 import { AiOutlineClose,AiOutlineMenu } from "react-icons/ai";
-import avatar from '../assets/avatar.png';
-interface NavProps{
-    nav:boolean;
-    setNav(nav:boolean):void;
-}
+import { NavProps } from "./type";
 
 const NavBar=({nav,setNav}:NavProps)=>{
     

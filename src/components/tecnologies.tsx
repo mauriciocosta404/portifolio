@@ -1,9 +1,5 @@
 import tecnologiesImage from "../mock/technologiesMock";
-
-interface NavProps {
-    nav: boolean;
-    setNav(nav: boolean): void;
-}
+import { NavProps } from "./type";
 
 const Tecnologies = ({ nav, setNav }: NavProps) => {
     return (

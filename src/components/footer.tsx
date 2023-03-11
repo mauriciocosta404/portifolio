@@ -6,12 +6,8 @@ import {
     FaLinkedin,
     FaTwitterSquare
 } from 'react-icons/fa';
+import { NavProps } from './type';
  
-interface NavProps {
-    nav: boolean;
-    setNav(nav: boolean): void;
-}
-
 const Footer = ({ nav, setNav }: NavProps) => {
     return (
         <div onClick={() => { setNav(false) }} id='details' className="max-w-[1240px] mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">

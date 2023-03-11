@@ -1,9 +1,7 @@
 import { FaGithub } from 'react-icons/fa';
 import { projectsMock } from '../mock/projectsMock';
-interface NavProps {
-    nav: boolean;
-    setNav(nav: boolean): void;
-}
+import { NavProps } from './type';
+
 const Projects=({nav,setNav}:NavProps)=>{
     return(
         <div id='projects' className="w-full  bg-white p-6">

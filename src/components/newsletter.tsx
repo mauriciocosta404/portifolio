@@ -1,7 +1,4 @@
- interface NavProps {
-    nav: boolean;
-    setNav(nav: boolean): void;
-}
+import { NavProps } from "./type";
 
 const Newsletter = ({ nav, setNav }: NavProps)=>{
     return(
