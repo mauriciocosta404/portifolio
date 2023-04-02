@@ -8,7 +8,7 @@ import project6 from '../assets/projects/calculadora.png';
 import project7 from '../assets/projects/iAmHere.png';
 import project8 from '../assets/projects/financa.png';
 
-export const projectsMock=[
+export const projectsMock = [
     {
         imageSrc:project1,
         name:'Encode',

@@ -7,7 +7,7 @@ import node from '../assets/skills/nodejs.png';
 import git from '../assets/skills/git.png';
 import figma from '../assets/skills/figma.png';
 
-const tecnologiesImage=[
+const tecnologiesImage = [
     {
         src:react,
         alt:'React',
