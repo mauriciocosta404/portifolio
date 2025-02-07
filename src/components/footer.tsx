@@ -12,7 +12,7 @@ const Footer = ({ nav, setNav }: NavProps) => {
     return (
         <div onClick={() => { setNav(false) }} id='details' className="max-w-[1340px] mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
             <div>
-            <h1 className="flex w-full text-3xl font-bold text-[#00df9a]">Maurício <img src={avatar} className="w-[40px] ml-2 h-[40px] rounded-full" alt="" /></h1>
+            <h1 className="flex w-full text-3xl font-bold text-[#00df9a]">Maurício</h1>
                 <p className='py-4 text-justify'>Atualmente, estou estudando desenvolvimento Frontend e outras tecnologias que complementam esse processo, como HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, Git e GitHub, além de frameworks CSS como Tailwind e SASS. Meu objetivo é me tornar um profissional competente e relevante na área de tecnologia, contribuindo com soluções inovadoras e de alta qualidade.</p>
                 <div className='flex md:w-[75%] my-6 justify-between'>
                     <FaFacebookSquare size={30}/>
