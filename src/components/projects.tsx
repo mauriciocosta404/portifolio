@@ -9,7 +9,7 @@ const Projects=({nav,setNav}:NavProps)=>{
             <div className="flex flex-wrap justify-center gap-7">
                 {projectsMock.map(({imageSrc,name,projectLink,description})=>
                     <div className='mt-5 relative  rounded-[12px] w-[300px] h-[350px] p-5 border-solid border-2 border-[#00df9a]'>
-                        <a href={projectLink} className='flex items-center gap-1 mb-5 absolute right-[-10px] rounded-md p-2 w-[130px] text-1xl bg-[#00df9a]'><FaGithub/>open project</a>
+                        <a href={projectLink} className='flex items-center gap-1 mb-5 absolute right-[-10px] rounded-md p-2 w-[150px] text-sm bg-[#00df9a]'><FaGithub/>abrir projecto</a>
                         <img src={imageSrc} className="rounded-[12px] h-[150px] mx-auto" alt="" />
                         <h2 className='w-full font-bold border-b-2 py-2  border-[#00df9a]'>{name}</h2>
                         <p className='text-[#ccc] lg:text-1xl text-justify'>{description}</p>
