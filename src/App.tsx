@@ -11,7 +11,7 @@ import Projects from './components/projects';
 function App() {
   const [nav, setNav] = useState(false);
   return (
-    <div>
+    <div className='font-mono'>
       <NavBar nav={nav} setNav={setNav} />
       <Hero nav={nav} setNav={setNav} />
       <Analytics nav={nav} setNav={setNav} />
