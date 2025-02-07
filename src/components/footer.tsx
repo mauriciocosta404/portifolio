@@ -10,10 +10,10 @@ import { NavProps } from './type';
  
 const Footer = ({ nav, setNav }: NavProps) => {
     return (
-        <div onClick={() => { setNav(false) }} id='details' className="max-w-[1240px] mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
+        <div onClick={() => { setNav(false) }} id='details' className="max-w-[1340px] mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
             <div>
             <h1 className="flex w-full text-3xl font-bold text-[#00df9a]">Maurício <img src={avatar} className="w-[40px] ml-2 h-[40px] rounded-full" alt="" /></h1>
-                <p className='py-4 text-justify'>I'm currently studying Frontend development and some other technologies that complement this process, such as HTML, CSS, JS, TS, React, Next, Node, Git and GitHub, some CSS Frameworks like Tailwind, scss . My goal is to become a competent, relevant professional in the technology area.</p>
+                <p className='py-4 text-justify'>Atualmente, estou estudando desenvolvimento Frontend e outras tecnologias que complementam esse processo, como HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, Git e GitHub, além de frameworks CSS como Tailwind e SASS. Meu objetivo é me tornar um profissional competente e relevante na área de tecnologia, contribuindo com soluções inovadoras e de alta qualidade.</p>
                 <div className='flex md:w-[75%] my-6 justify-between'>
                     <FaFacebookSquare size={30}/>
                     <a href="https://www.linkedin.com/in/mauricio-costa-216bb1235">
@@ -26,36 +26,24 @@ const Footer = ({ nav, setNav }: NavProps) => {
                     <FaDribbbleSquare size={30}/>
                 </div>
             </div>
-            <div className='lg:col-span-2 lg:flex justify-between mt-6'>
-                <div className='lg:ml-8'>
+               <div className='lg:ml-8'>
                     <h6 className='my-5 font-bold text-gray-400'>Perfil</h6>
                     <ul>
-                        <li className='py-2 text-sm '>email:mc611641@gmail.com</li>
+                        <li className='py-2 text-sm '>email: mc611641@gmail.com</li>
                         <li className='py-2 text-sm '>whatsapp: +244 921129586</li>
                         <li className='py-2 text-sm '>telefone: +244 921129586</li>
                         <li className='py-2 text-sm '></li>
                     </ul>
                 </div>
                 <div>
-                    <h6 className='my-5 font-bold text-gray-400'>Qualities</h6>
+                    <h6 className='my-5 font-bold text-gray-400'>Links rápidos</h6>
                     <ul>
-                        <li className='py-2 text-sm '>one-off</li>
-                        <li className='py-2 text-sm '>hardworking</li>
-                        <li className='py-2 text-sm '>communicative</li>
-                        <li className='py-2 text-sm '>Flexible</li>
+                        <li className='py-2 text-sm '>Início</li>
+                        <li className='py-2 text-sm '>Sobre</li>
+                        <li className='py-2 text-sm '>Tecnologias</li>
+                        <li className='py-2 text-sm '>Projectos</li>
                     </ul>
                 </div>
-                <div>
-                    <h6 className='my-5 font-bold text-gray-400'>Likes</h6>
-                    <ul>
-                        <li className='py-2 text-sm '>one-off</li>
-                        <li className='py-2 text-sm '>hardworking</li>
-                        <li className='py-2 text-sm '>communicative</li>
-                        <li className='py-2 text-sm '>Flexible</li>
-                    </ul>
-                </div>
-      
-            </div>
         </div>
     )
 }

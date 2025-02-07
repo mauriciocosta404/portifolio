@@ -5,7 +5,7 @@ import { NavProps } from './type';
 const Projects=({nav,setNav}:NavProps)=>{
     return(
         <div id='projects' className="w-full  bg-white p-6">
-            <h1 className="w-full text-3xl font-bold text-center text-[#00df9a]">Projects</h1>
+            <h1 className="w-full text-3xl font-bold text-center text-[#00df9a]">Projectos</h1>
             <div className="flex flex-wrap justify-center gap-7">
                 {projectsMock.map(({imageSrc,name,projectLink,description})=>
                     <div className='mt-5 relative  rounded-[12px] w-[300px] h-[350px] p-5 border-solid border-2 border-[#00df9a]'>

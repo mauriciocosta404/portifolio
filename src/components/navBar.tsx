@@ -5,16 +5,16 @@ const NavBar=({nav,setNav}:NavProps)=>{
     
     return(
         <div id="home" className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
-            <h1 className="flex w-full text-3xl font-bold text-[#00df9a]">Maurício</h1>
+            <h1 className="flex w-full text-3xl font-bold text-[#00df9a] font-mono">Maurício</h1>
             <ul className="hidden md:flex" onClick={()=>{setNav(false)}}>
                 <li className="p-4" >
                     <a href="#home">
-                        Home
+                        Início
                     </a>   
                 </li>
                 <li className="p-4">
                     <a href="#about">
-                        About
+                        Sobre
                     </a>
                 </li>
                 <li className="p-4">
@@ -24,17 +24,17 @@ const NavBar=({nav,setNav}:NavProps)=>{
                 </li>
                 <li className="p-4">
                     <a href="#tecnologies">
-                        Tecnologies
+                        Tecnologias
                     </a>
                 </li>
                 <li className="p-4">
                     <a href="#projects">
-                        Projects
+                        Projectos
                     </a>
                 </li>
                 <li className="p-4">
                     <a href="#details">
-                        Details
+                        Detalhes
                     </a>
                 </li>
             </ul>
@@ -46,12 +46,12 @@ const NavBar=({nav,setNav}:NavProps)=>{
                 <ul className="uppercase p-4 ">
                     <li className="p-4 border-b border-gray-600">
                         <a href="#home">
-                            Home
+                            Início
                         </a>   
                     </li>
                     <li className="p-4 border-b border-gray-600">
                         <a href="#about">
-                            About
+                            Sobre
                         </a>
                     </li>
                     <li className="p-4 border-b border-gray-600">
@@ -61,17 +61,17 @@ const NavBar=({nav,setNav}:NavProps)=>{
                     </li>
                     <li className="p-4 border-b border-gray-600">
                         <a href="#tecnologies">
-                            Tecnologies
+                            Tecnologias
                         </a>
                     </li>
                     <li className="p-4 border-b border-gray-600">
                         <a href="#projects">
-                            Projects
+                            Projectos
                         </a>
                     </li>
                     <li className="p-4">
                         <a href="#details">
-                            Details
+                            Detalhes
                         </a>
                     </li>
                 </ul>

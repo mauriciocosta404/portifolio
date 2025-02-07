@@ -1,60 +1,39 @@
 
-import project1 from '../assets/projects/taskManager.jpg'; 
-import project2 from '../assets/projects/restaurante.png';
-import project3 from '../assets/projects/awax.png';
-import project4 from '../assets/projects/streamming.png';
+import project1 from '../assets/projects/projectos2/bilhetes-online.png'; 
+import project2 from '../assets/projects/projectos2/sindsul.png';
+import project3 from '../assets/projects/projectos2/colegio-foch.png';
+import project4 from '../assets/projects/projectos2/oncolavras.png';
 import project5 from '../assets/projects/clima.png';
-import project6 from '../assets/projects/calculadora.png';
-import project7 from '../assets/projects/iAmHere.png';
-import project8 from '../assets/projects/financa.png';
 
 export const projectsMock = [
     {
         imageSrc:project1,
-        name:'Encode',
-        projectLink:'https://github.com/mauriciocosta404/tasks-maneger-nextjs-typescript-nodejs-mysql.git',
-        description:'this is a task manager, ordered by Genilson Araújo. Made with next.js, styled-components, typescript, node.js and mysql.'
+        name:'Bilhetes online',
+        projectLink:'https://bilhetesonline.co.mz/#/',
+        description:'Projecto feito colaborando na empresa zelosos - trata-se de um vendedor de bilhetes online'
     },
     {
         imageSrc:project2,
-        name:'Mauriciadas',
-        projectLink:'https://github.com/mauriciocosta404/projecto-restaurante.git',
-        description:'this is a restaurant manager, personal project. Made with html, css and javascript.'
+        name:'Sindsul',
+        projectLink:'https://portal.sindsul.org.br/',
+        description:'Projecto feito colaborando na empresa webtagger-brasil - trata-se de um sindicato online'
     },
     {
         imageSrc:project3,
-        name:'Awax',
-        projectLink:'https://github.com/mauriciocosta404/menezescosta-projecto-awax-next.js-typescript.git',
-        description:'this is a clone of interface, Personal project. Made with next.js, styled-components, typescript.'
+        name:'Colégio Foch',
+        projectLink:'https://colegiofoch.com.br/',
+        description:'Projecto feito colaborando na empresa webtagger-brasil - trata-se de um gestor de informações escolar'
     },
     {
         imageSrc:project4,
-        name:'Streamming',
+        name:'Oncolavras',
         projectLink:'#',
-        description:'this is a music streamming, personal project. Made with html, css, api-rest.'
+        description:'Projecto feito colaborando na empresa webtagger-brasil - trata-se de um site para a clínica oncolavras'
     },
     {
         imageSrc:project5,
         name:'Clima Api',
         projectLink:'https://github.com/mauriciocosta404/Clima-js-API',
-        description:'this is a weather controller, personal project. Made with html, css, javascript, api-rest.'
-    },
-    {
-        imageSrc:project6,
-        name:'Calculadora',
-        projectLink:'https://github.com/mauriciocosta404/Calculadora-js.git',
-        description:'this is a calculator, personal project. Made with html, css, javascript.'
-    },
-    {
-        imageSrc:project7,
-        name:'IAmHere',
-        projectLink:'https://github.com/mauriciocosta404/iAmHere-react-native.git',
-        description:'this is a participant manager, made following rocketseat. Made with react-native and typescript.'
-    },
-    {
-        imageSrc:project8,
-        name:'Financiada',
-        projectLink:'https://github.com/mauriciocosta404/Gestor-financeiro-react-js',
-        description:'this is a finace manager, Pessoal project. Made with react.js, styled-components.'
-    },
+        description:'Projecto pessoal - trata - se de um previsor de tempo web'
+    }
 ]
