@@ -5,7 +5,7 @@ import { NavProps } from './type';
 const Hero = ({ nav, setNav }: NavProps)=>{
     return(
         <div className="text-white" onClick={() => { setNav(false) }}>
-            <div className="max-w-[800px] md:mt-[.7rem] mt-[-96px] w-full h-screen mx-auto  text-center flex flex-col justify-center">
+            <div className="max-w-[800px] md:mt-[.7rem] mt-[96px] w-full h-screen mx-auto  text-center flex flex-col justify-center">
                 <div className=''>
                 {/*<img src={avatar} className="md:w-[6rem] md:h-[6rem] md:mt-10 w-[70px] h-[70px] mx-auto mt-48 rounded-full hover:scale-2 hover:rotate-90" alt="" />*/}
                 </div>
