@@ -1,5 +1,6 @@
-import { ArrowUpRight, Download, Mail, MapPin, Menu } from 'lucide-react'
+import { ArrowUpRight, Download, Mail, MapPin } from 'lucide-react'
 import { TypewriterTitle } from '@/components/typewriter-title'
+import { Header } from '@/components/header'
 
 const projects = [
   {
@@ -68,22 +69,7 @@ const skills = [
 export default function Page() {
   return (
     <main className="site-shell">
-      <header className="nav-wrap">
-        <a className="brand" href="#top" aria-label="Maurício Costa — início">
-          <span className="brand-mark">MC</span>
-          <span className="brand-name">Maurício Costa</span>
-        </a>
-        <nav className="desktop-nav" aria-label="Navegação principal">
-          <a href="#sobre">Sobre</a>
-          <a href="#projetos">Projetos</a>
-          <a href="#contato">Contato</a>
-          <a href="/MauricioCV.pdf" download="MauricioCV.pdf">Currículo</a>
-        </nav>
-        <a className="nav-cta" href="mailto:mc611641@gmail.com">
-          Vamos conversar <ArrowUpRight aria-hidden="true" />
-        </a>
-        <button className="mobile-menu" aria-label="Abrir menu"><Menu aria-hidden="true" /></button>
-      </header>
+      <Header />
 
       <div id="top" className="hero section-container">
         <div className="hero-copy">
@@ -93,7 +79,7 @@ export default function Page() {
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#projetos">Ver projetos <ArrowUpRight aria-hidden="true" /></a>
-            <a className="button" style={{ border: '1px solid var(--line)', color: 'var(--foreground)' }} href="/MauricioCV.pdf" download="MauricioCV.pdf">
+            <a className="button button-secondary" href="/MauricioCV.pdf" download="MauricioCV.pdf">
               Baixar CV <Download aria-hidden="true" />
             </a>
             <a className="text-link" href="#sobre">Mais sobre mim <span>↓</span></a>
