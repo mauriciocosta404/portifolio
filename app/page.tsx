@@ -5,6 +5,22 @@ import { Header } from '@/components/header'
 const projects = [
   {
     number: '01',
+    title: 'Sare',
+    description: 'Plataforma digital para conexão de eventos, contratação de prestadores de serviços e gestão em Angola.',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'AI SDK'],
+    type: 'Plataforma digital',
+    link: 'https://www.sare.ao/',
+  },
+  {
+    number: '02',
+    title: 'Infinite Pad',
+    description: 'Aplicação web interativa para geração contínua de ambient pads sonoros e atmosferas imersivas para músicos.',
+    tags: ['Next.js', 'Web Audio API', 'TypeScript', 'Tailwind CSS'],
+    type: 'Aplicação web',
+    link: 'https://infinite-pad.vercel.app/',
+  },
+  {
+    number: '03',
     title: 'Bilhetes online',
     description: 'Plataforma para compra e venda de ingressos digitais desenvolvida em colaboração com a empresa Zelosos.',
     tags: ['React', 'TypeScript', 'Tailwind CSS'],
@@ -12,7 +28,7 @@ const projects = [
     link: 'https://bilhetesonline.co.mz/#/',
   },
   {
-    number: '02',
+    number: '04',
     title: 'Sindsul',
     description: 'Portal corporativo e sistema para sindicato desenvolvido em colaboração com a empresa Webtagger Brasil.',
     tags: ['React', 'JavaScript', 'CSS3'],
@@ -20,7 +36,7 @@ const projects = [
     link: 'https://portal.sindsul.org.br/',
   },
   {
-    number: '03',
+    number: '05',
     title: 'Colégio Foch',
     description: 'Sistema web de gestão de informações escolares desenvolvido em colaboração com a Webtagger Brasil.',
     tags: ['React', 'Web App', 'TypeScript'],
@@ -28,28 +44,12 @@ const projects = [
     link: 'https://colegiofoch.com.br/',
   },
   {
-    number: '04',
-    title: 'Clima API',
-    description: 'Aplicação web interativa de previsão meteorológica em tempo real consumindo API REST pública.',
-    tags: ['JavaScript', 'REST API', 'CSS3'],
-    type: 'Aplicação web',
-    link: 'https://github.com/mauriciocosta404/Clima-js-API',
-  },
-  {
-    number: '05',
+    number: '06',
     title: 'Oncolavras',
     description: 'Site institucional e apresentação para clínica médica oncológica em colaboração com a Webtagger Brasil.',
     tags: ['React', 'UI Design', 'CSS3'],
     type: 'Site institucional',
     link: 'https://github.com/mauriciocosta404',
-  },
-  {
-    number: '06',
-    title: 'Calculadora JS',
-    description: 'Aplicação interativa de cálculos matemáticos com layout responsivo desenvolvida com JavaScript moderno.',
-    tags: ['JavaScript', 'HTML5', 'CSS3'],
-    type: 'Projeto pessoal',
-    link: 'https://github.com/mauriciocosta404/Calculadora-js.git',
   },
 ]
 
